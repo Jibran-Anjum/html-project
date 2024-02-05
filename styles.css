@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./images/mardan.jpeg');
+    background-size: cover;
+    margin: 0px 5px;
+    padding: 0px 0px 100px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#title {
+    justify-content: center;
+    color: white;
+    margin: 150px 150px 0px 150px;
+    background: #457B9D;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+#description {
+    justify-content: center;
+    color: white;
+    margin: 20px 150px 0px 150px;
+    background: #1D3557;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+#activities {
+    display: flex;
+    justify-content: center;
+    color: #1D3557;
+    margin: 0px 5px 40px 5px;
+    background: #F1FAEE;
+    flex-direction: column;
+}
+
+#elements {
+    display: flex;
+}
+
+.element-pics {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.orientation {
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#card {
+    display: flex;
+    background: #A8DADC;
+    justify-content: space-around;
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: 5px solid #457B9D;
+}
+
+#guide-pic {
+    width: 150px;
+}
